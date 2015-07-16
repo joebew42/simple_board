@@ -1,0 +1,12 @@
+<h2>Show board</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @board.name %>
+  </li>
+
+</ul>
+
+<%= link "Back", to: board_path(@conn, :index) %>
